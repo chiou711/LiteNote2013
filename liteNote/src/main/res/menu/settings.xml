@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/ADD_NEW_ID"
+        android:orderInCategory="0"
+        android:showAsAction="always"
+        android:icon="@+drawable/add_new"
+        android:title="Add New Note"/>
+    <item
+        android:id="@+id/ADD_NEW_PAGE"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:icon="@+drawable/add_new_page"
+        android:title="Add New Page"/>
+    <item
+        android:id="@+id/CONFIG_ID"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:icon="@+drawable/settings"
+        android:title="Config"/>
+</menu>

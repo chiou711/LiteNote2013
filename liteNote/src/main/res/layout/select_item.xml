@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+<!--
+    <ImageView
+        android:id="@+id/markHandler"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="fill_vertical"
+        android:layout_marginLeft="0dp"
+        android:contentDescription="@string/mark_handler"
+        android:src="@android:drawable/checkbox_off_background" />
+-->
+<!--     <TextView -->
+    <CheckedTextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_weight="10"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="3dp"
+        android:background="#BAF98E"
+        android:contentDescription="@string/note_text"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:drawableLeft="?android:attr/listChoiceIndicatorMultiple"
+      	android:checked="false"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/dragHandler"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="0dp"
+        android:src="@android:drawable/toast_frame" 
+        android:contentDescription="@string/drag_handler"/>
+
+</LinearLayout>

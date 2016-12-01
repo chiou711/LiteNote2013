@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LiteNote</string>
+    <string name="mark_handler">mark_handler</string>
+    <string name="note_text">note_text</string>
+    <string name="drag_handler">drag_handler</string>
+    <string name="add_new_note">新增</string>
+    <string name="add_new_page">新增記事頁</string>
+    <string name="options">選項</string>
+    <string name="settings">設定</string>
+    <string name="add_new_note_title">新增記事</string>
+    <string name="add_new_note_message">輸入記事內容</string>
+    <string name="add_new_note_button_add">新增</string>
+    <string name="edit_note_title">編輯記事</string>
+    <string name="edit_note_message">編輯記事內容</string>
+    <string name="edit_note_button_save">儲存</string>
+    <string name="edit_note_button_back">返回</string>
+    <string name="edit_note_button_delete">刪除</string>
+    <string name="confirm_dialog_title">確認</string>
+    <string name="confirm_dialog_message">確定要刪除這一項記事?</string>
+    <string name="confirm_dialog_message_page">確定要刪除這一頁記事?</string>
+    <string name="confirm_dialog_button_no">否</string>
+    <string name="confirm_dialog_button_yes">是</string>
+    <string name="footer_title">結尾</string>
+    <string name="config_checkbox_warn_delete_note">在刪除一項記事之前,會出現提醒.</string>
+    <string name="config_checkbox_warn_delete_page">在刪除一頁記事之前,會出現提醒.</string>
+    <string name="config_button_back">返回</string>
+    <string name="edit_page_tab_title">編輯記事頁</string>
+    <string name="edit_page_tab_message">修改標籤名稱</string>
+    <string name="edit_page_button_update">更新標籤</string>
+    <string name="edit_page_button_delete">刪除此頁</string>
+    <string name="edit_page_button_ignore">忽略</string>
+    <string name="toast_keep_one_page">請至少保留一頁</string>
+</resources>
